@@ -19,6 +19,13 @@ declare(strict_types=1); ?>
     echo "<li " . $style[$i % 2] . "> Item $i </li>";
   }
   echo "</ul>";
+
+  //This is the css list that we will style
+  echo "<ul id='cssList'>";
+  for ($i = 1; $i <= 10; $i++) {
+    echo "<li> Item $i </li>";
+  }
+  echo "</ul>";
   ?>
 </body>
 
