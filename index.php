@@ -6,6 +6,7 @@ declare(strict_types=1); ?>
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="index.js" defer></script>
 </head>

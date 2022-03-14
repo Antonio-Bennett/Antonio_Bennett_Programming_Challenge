@@ -14,6 +14,13 @@
   overflow: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+  #wrapper > div {
+    width: 100%;
+    margin: 1rem;
+  }
+}
+
 #wrapper ul {
   margin: 0;
   padding: 0;
