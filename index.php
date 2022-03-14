@@ -12,7 +12,7 @@ declare(strict_types=1); ?>
 
 <body>
   <?php
-  echo "<h2>PHP List No styling other than color (Based on PHP logo)</h2>";
+  echo "<h2>PHP List No styling other than color (Based on PHP Logo)</h2>";
   $style = array("style='background-color: #8892bf;'", "style='background-color: #b5c2ff;'");
   echo "<ul>";
   for ($i = 1; $i <= 10; $i++) {
@@ -21,11 +21,11 @@ declare(strict_types=1); ?>
   echo "</ul>";
 
   //This is the css list that we will style
-  echo "<ul id='cssList'>";
+  echo "<div id='wrapper'><h2>Css List (Based on CSS Logo)</h2><div><ul id='cssList'>";
   for ($i = 1; $i <= 10; $i++) {
     echo "<li> Item $i </li>";
   }
-  echo "</ul>";
+  echo "</ul></div></div>";
   ?>
 </body>
 
