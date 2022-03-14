@@ -12,7 +12,12 @@ declare(strict_types=1); ?>
 
 <body>
   <?php
-  echo "<h1>Hello World</h1>"
+  echo "<h2>PHP List No styling other than color (Based on PHP logo)</h2>";
+  $style = array("style='background-color: #8892bf;'", "style='background-color: #b5c2ff;'");
+  for ($i = 1; $i <= 10; $i++) {
+    echo "<li " . $style[$i % 2] . "> Item $i </li>";
+  }
+  echo "</ul>";
   ?>
 </body>
 
